@@ -1,0 +1,61 @@
+# SageMaker / Jupyter / Python stuff
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# SageMaker specific
+sagemaker/
+output/
+model/
+*.tar.gz
+*.model
+*.params
+*.checkpoint
+
+# Data files you don't want to commit (large or sensitive)
+*.csv
+*.lst
+*.zip
+*.gz
+*.tar
+dataset/
+alien_test/
+predictions/
+
+# Logs and temp files
+*.log
+*.out
+*.tmp
+*.bak
+*.swp
+*~
+
+# macOS junk
+.DS_Store
+
+# VS Code / editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Large binary files (models, datasets)
+*.h5
+*.pth
+*.onnx
+*.pb
+*.tflite
+
+# If you ever download model artifacts locally
+model.tar.gz
