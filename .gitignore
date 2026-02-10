@@ -24,7 +24,7 @@ model/
 *.checkpoint
 
 # Data files you don't want to commit (large or sensitive)
-*.csv
+
 *.lst
 *.zip
 *.gz
